@@ -77,7 +77,7 @@ namespace Estoque.Controllers
                 return false;
             }
 
-            return produto.QuamtidadeEmEstoque >= request.QuantidadeDesejada;
+            return produto.QuantidadeEmEstoque >= request.QuantidadeDesejada;
         }
 
         public record ValidarEstoqueRequest(int ProdutoId, int QuantidadeDesejada);

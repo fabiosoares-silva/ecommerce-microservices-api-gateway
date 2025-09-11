@@ -1,3 +1,4 @@
+using Estoque.Data;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -11,7 +12,7 @@ builder.Services.AddSwaggerGen();
 
 var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
 
-builder.Services.AddDbContext<Estoque.Data.EstoqueDbContext>(options =>
+builder.Services.AddDbContext<EstoqueDbContext>(options =>
     options.UseSqlServer(connectionString));
 
 var app = builder.Build();

@@ -11,6 +11,6 @@ namespace Estoque.Models
 
         public decimal Preco { get; set; }
 
-        public int QuamtidadeEmEstoque { get; set; }
+        public int QuantidadeEmEstoque { get; set; }
     }
 }
