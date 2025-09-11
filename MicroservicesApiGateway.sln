@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.13.35931.197 d17.13
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroservicesApiGateway", "MicroservicesApiGateway\MicroservicesApiGateway.csproj", "{4398A5D6-80CC-4D98-A7A5-DFDECEDB8BC8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiGateway", "MicroservicesApiGateway\ApiGateway.csproj", "{4398A5D6-80CC-4D98-A7A5-DFDECEDB8BC8}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Estoque", "Estoque\Estoque.csproj", "{4B2F9216-75BF-42E3-9379-6A8176B45855}"
 EndProject
