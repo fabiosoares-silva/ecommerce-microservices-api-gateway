@@ -2,7 +2,6 @@ using Microsoft.EntityFrameworkCore;
 using Vendas.Data;
 using Vendas.Services;
 
-
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
